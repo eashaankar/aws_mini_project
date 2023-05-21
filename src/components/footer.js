@@ -8,7 +8,7 @@ return (
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         Made by Eashaankar Sahai. For step-by-step procedure and source code checkout my github repo ➡️
-        <a className='text-reset fw-bold' href='https://github.com/eashaankar'>
+        <a className='text-reset fw-bold' href='https://github.com/eashaankar/aws_mini_project'>
          github.com/eashaankar
         </a>
       </div>
