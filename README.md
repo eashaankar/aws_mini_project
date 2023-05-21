@@ -1,5 +1,7 @@
 # Deploying a React App to AWS
 
+🌐 [Website](https://www.awsminiproject.com/)
+
 ## Prerequisites
 
 - An AWS account: You will need an AWS account to create and configure the necessary services.
