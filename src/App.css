@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -17,6 +21,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
+  font-family: 'Ubuntu', sans-serif;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -35,4 +40,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wrapper{
+  display:flex;
+  height:min-content;
+  width:auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordian{
+  width:fit-content;
+  justify-content: start;
+}
+
+.item{
+  background: #61dafb;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+
+.heading{
+  color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex start;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.content{
+  color: #282c34;
+  max-height: 0;
+  overflow: hidden;
+  justify-content: start;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show{
+  height: auto;
+  justify-content: start;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.img{
+  height:fit-content;
+  max-width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.p{
+  align-items: start;
+  font-family: 'Ubuntu', sans-serif;
 }
